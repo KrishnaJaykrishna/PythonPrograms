@@ -5,7 +5,7 @@ with open('HeightWeight.csv', newline = '') as f:
 file_data.pop(0)
 newdata = []
 for i in range(len(file_data)):
-    numb = file_data[i][1]
+    numb = file_data[i][2]
     newdata.append(float(numb))
 n = len(newdata)
 total = 0
